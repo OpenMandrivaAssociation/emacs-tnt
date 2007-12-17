@@ -12,7 +12,6 @@ Url:		http://tnt.sourceforge.net
 Packager:	Arnaud Desmons <adesmons@mandrakesoft.com>
 License: 	GPL
 Group: 		Editors
-BuildRoot: 	%{_tmppath}/%{name}-buildroot
 Prefix: 	%{_prefix}
 BuildRequires:  emacs-bin
 BuildArch: noarch
