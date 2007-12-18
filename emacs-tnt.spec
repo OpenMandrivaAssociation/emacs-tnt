@@ -9,7 +9,6 @@ Version:	%{version}
 Release: 	%{release}
 Source0: 	%{rname}-%{version}.tar.bz2
 Url:		http://tnt.sourceforge.net
-Packager:	Arnaud Desmons <adesmons@mandrakesoft.com>
 License: 	GPL
 Group: 		Editors
 Prefix: 	%{_prefix}
