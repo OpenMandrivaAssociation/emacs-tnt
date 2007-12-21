@@ -11,6 +11,7 @@ Source0: 	%{rname}-%{version}.tar.bz2
 Url:		http://tnt.sourceforge.net
 License: 	GPL
 Group: 		Editors
+BuildRoot: 	%{_tmppath}/%{name}-buildroot
 Prefix: 	%{_prefix}
 BuildRequires:  emacs-bin
 BuildArch: noarch
