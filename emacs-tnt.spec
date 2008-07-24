@@ -1,7 +1,7 @@
 %define rname 	tnt
 %define name 	emacs-%{rname}
 %define version 2.4
-%define release  %mkrel 4
+%define release  %mkrel 6
 
 Summary: 	Emacs based AOL Instant Message Client
 Name: 		%{name}
