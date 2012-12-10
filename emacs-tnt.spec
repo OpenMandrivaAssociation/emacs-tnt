@@ -50,3 +50,41 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/emacs/site-lisp/*.elc
 %{_sysconfdir}/emacs/site-start.d/tnt.el
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 2.4-8mdv2011.0
++ Revision: 618053
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 2.4-7mdv2010.0
++ Revision: 428588
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 2.4-6mdv2009.0
++ Revision: 244777
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Dec 18 2007 Thierry Vignaud <tv@mandriva.org> 2.4-4mdv2008.1
++ Revision: 132767
+- kill invalid packager tag
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import emacs-tnt
+
+
+* Fri Apr 29 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 2.4-4mdk
+- rebuild for new emacs
+
+* Sun Sep 07 2003 Pascal Terjan <CMoi@tuxfamily.org> 2.4-3mdk
+- fix BuildRequires
+
+* Tue Jan 21 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 2.4-2mdk
+- rebuild for latest emacs
+
+* Tue Sep 17 2002 Arnaud Desmons <adesmons@mandrakesoft.com> 2.4-1mdk
+- first release
+
