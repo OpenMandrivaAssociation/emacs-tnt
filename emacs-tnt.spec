@@ -6,7 +6,7 @@
 Summary: 	Emacs based AOL Instant Message Client
 Name: 		%{name}
 Version:	%{version}
-Release: 	%{release}
+Release:	1
 Source0: 	%{rname}-%{version}.tar.bz2
 Url:		http://tnt.sourceforge.net
 License: 	GPL
