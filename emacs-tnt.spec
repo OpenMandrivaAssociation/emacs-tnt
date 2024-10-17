@@ -8,7 +8,7 @@ Name: 		%{name}
 Version:	%{version}
 Release:	1
 Source0: 	%{rname}-%{version}.tar.bz2
-Url:		http://tnt.sourceforge.net
+Url:		https://tnt.sourceforge.net
 License: 	GPL
 Group: 		Editors
 BuildRoot: 	%{_tmppath}/%{name}-buildroot
